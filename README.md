@@ -1,7 +1,8 @@
 # Multi-class GP classification via Pólya-Gamma augmentation
 
 Code of the project *Multi-Class GP Classification via Pólya-Gamma Augmentation* (Giacomo Grossi,
-STAT 625, Rice University, Spring 2026, with Prof. Meng Li). The report is in
+course project for STAT 625 – Advanced Bayesian Inference, Rice University, Spring 2026, with
+Prof. Meng Li). The report is in
 [`docs/report.pdf`](docs/report.pdf).
 
 Each of the C classes gets a latent function with an independent Gaussian-process prior,
