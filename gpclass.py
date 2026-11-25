@@ -7,9 +7,6 @@ Two Gibbs samplers for C classes with independent GP priors f^c ~ GP(0, k), c = 
     run_ove_gp     One-vs-Each likelihood (Titsias, 2016) read as a pairwise composite
                    likelihood; all of f in one block (Snell and Zemel, 2021)
 
-Both return the predictive class probabilities at the test inputs, averaged over `draws`
-independent chains (the last state of each chain after `steps` Gibbs iterations), with the
-latent functions at the test inputs set to the GP conditional mean given the training values.
 
 The Polya-Gamma draws use the infinite-sum representation of PG(1, c) truncated at 20 terms.
 """
